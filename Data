@@ -1,0 +1,16 @@
+Data
+There are 4 datasets required for this analysis:
+1.	Neighbourhood coordinates
+2.	Neighbourhood distance from CBD
+3.	Nearby venues
+4.	Median house price.
+	Neighbourhood coordinates dataset is needed as the main reference of location points. This dataset is sourced from Corra [1]. Corra is a private company based in Adelaide, South Australia, and they provide high quality web design and development solutions to their clients. The dataset published by Corra is used as it contains the entire country’s latitude and longitude coordinates by postcode, suburb, and state. This dataset can be downloaded in CSV format. 
+	Neighbourhood distance from CBD dataset will be used as reference to Sam’s new home requirements of within 25 kms from the CBD. This dataset is sourced from Myboot [2]. Myboot is a website that compiles information on Australian suburbs including demographics and crime statistics. We will be extracting their “Less than 25 km from Melbourne” list using web scraping methods as learned in Python Project for Data Science Course by IBM.
+	Nearby venues dataset will be used to extract venues information within a specified range (i.e., 500 metres) from a specific location. This dataset will be sourced from Foursquare [3]. Foursquare is an app that provides personalized recommendations of places to go near a user's current location based on users' previous browsing history and check-in history. We will extract Foursquare venues data through accessing their Application Programming Interface (API) as learned in Applied Data Science Capstone Course by IBM.
+	Median house price dataset will be sourced from the Victoria State Government [4]. The dataset will be useful reference to fulfil Sam’s budget requirements. This dataset can be downloaded in CSV format and it was recently updated on April 20, 2021. 
+
+References
+[1] Corra. URL: https://www.corra.com.au/australian-postcode-location-data/  (visited on 2021/05/23)
+[2] Myboot. URL: http://myboot.com.au/VIC/25/suburblist.aspx  (visited on 2021/05/23)
+[3] Foursquare. URL: https://foursquare.com/  (visited on 2021/05/23)
+[4] Victoria State Government. URL: https://discover.data.vic.gov.au/dataset/victorian-property-sales-report-median-house-by-suburb (visited on 2021/05/23)

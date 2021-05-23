@@ -1,0 +1,18 @@
+Introduction
+Background 
+Buying your first home is exciting as it marks the start of a brand-new chapter in life. However, it is equally stressful as there are numerous factors to consider. These factors include family needs, location and accessibility, facilities and amenities, type of the property, condition of the property, and price of the property. There are many property listing websites available today that consolidates and promotes listing information that many first-time homebuyers can utilise in their research. 
+In this report, we will use data science methods to help narrow down neighbourhoods based on the needs of the homebuyer. The shortlisted neighbourhoods can then be used as input by the homebuyer when going through listing websites.
+
+Problem Statement
+In this report, we will help Sam to find suitable neighbourhoods in Melbourne (Victoria, Australia) based on his needs. Sam is 30 years old and has been working in Melbourne Central Business District (CBD) for the past 7 years. He is currently renting an apartment near his office with his fiancé. He and his fiancé are fitness freaks, they typically start their day with a morning workout together before work in a gym located near their apartment. After work, they would meet up in the local park for a short run before dinner. They typically cook at home on weekdays and eat out on the weekends with friends and family. Sam and his fiancé share an interest in Japanese cuisine and its always the choice of cuisine when they eat out. 
+As Sam’s marriage ceremony is next year, he wishes to buy his first home and move in before the ceremony. He does not mind moving out of the city as he has a car to travel to and from work but does not wish to drive too long either. It would be a bonus if there’s a train station nearby his new home, so he and his fiancé have the option of using public transportation. Hence, he wants his next home to be within 25 kilometres (kms) from the CBD. His budget for his new home is 1,000,000 Australian Dollars (AUD). 
+There are more than 300 neighbourhoods in Melbourne, and it is daunting to for Sam to go through it and match it to his needs. Summarised, Sam would most likely enjoy neighbourhoods that are within 25 kms from the CBD and has the following venues nearby: 
+1.	Gym
+2.	Park
+3.	Grocery store
+4.	Japanese restaurant
+5.	Train station
+With this information in mind, we will be using data science methods to help Sam identify 5 neighbourhoods that are most suitable to his needs. 
+
+Target Audience
+This report is customised to Sam’s needs as stated in the previous section. Nevertheless, the approach that we will be using can also be used and tweaked by other homebuyers in their property hunting research. Real estate agents may also be interested in this report as the approach we that will be using can assist them in providing customised data-driven suggestions to their clients. 
